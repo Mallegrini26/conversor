@@ -12,7 +12,9 @@ document.getElementById('boton').addEventListener('click', function() {
     document.getElementById('num1').value = cantidadDolares.toFixed(2);
 });
 */
-
+function mostrar() {
+    document.getElementById("fecha").innerHTML = Date();
+}
 document.getElementById('boton').addEventListener('click', function() {
     const tasaDeCambio = 0.001; // Ejemplo de tasa de cambio fija (1 peso = 0.001 dólares)
     const cantidad = parseFloat(document.getElementById('num').value);

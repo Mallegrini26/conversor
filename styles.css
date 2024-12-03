@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top left, rgb(246, 70, 70), rgb(108, 23, 23),rgba(8, 7, 7, 0.941) );
+}
+
+.caja{
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.fecha1 .boton3{
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 3px black;
+    cursor: pointer;
+    background-image: linear-gradient(to top left, black, white,rgba(8, 7, 7, 0.941) );
+}
+h1{
+    font-family: "Italianno", cursive;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 3px black;
+    cursor: cell;
+    background-image: linear-gradient(to top left, black, white,rgba(8, 7, 7, 0.941) );
+}
+h1:hover{
+    letter-spacing: 15px;
+}
