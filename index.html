@@ -9,16 +9,16 @@
     <div>
         <h1>CONVERSOR DE MONEDA</h1>
         <h2>INGRESA LA CANTIDAD QUE TE GUSTARÍA CAMBIAR</h2>
-        <form action="">
-            <label>PESOS</label>
-            <input type="text">
-            <label>DOLARES</label>
-            <input type="text">
-            <button>convertir</button>
-            <p id="conversor"></p>
+        <form>
+            <label form="num">PESOS</label>
+            <input type="text" id="num">
+            <label for="num1">DOLARES</label>
+            <input type="text" id="num1" readonly>
+            <button type="button" id="boton">convertir</button>
+            <div id="conversor"></div>
         </form> 
         
     </div>
-    
+    <script src="java.js"></script>
 </body>
 </html>
