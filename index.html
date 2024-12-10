@@ -15,24 +15,24 @@
         <h1>CONVERSOR DE MONEDA</h1>
         <h2>INGRESA LA CANTIDAD QUE TE GUSTARÍA CAMBIAR</h2>
         <form>
-            <label for="num">Cantidad</label>
+            <label class="label-titulo" for="num">CANTIDAD</label>
             <div class="input-container">
                 <span class="currency-symbol" id="currency-symbol">$</span>
                 <!-- AGREGA EL SÍMBOLO AL DIV -->
-                <input type="text" id="num">
+                <input class="text-input" type="text" id="num">
             </div>
-            <label for="conversion-direction">CONVERSIÓN</label>
+            <label class="label-titulo" for="conversion-direction">CONVERSIÓN</label><br>
             <select id="conversion-direction">
                 <option value="pesos-a-dolares">PESOS A DÓLARES</option>
                 <option value="dolares-a-pesos">DÓLARES A PESOS</option>
-            </select>
-            <label for="num1">RESULTADO</label>
+            </select><br>
+            <label class="label-titulo" for="num1">RESULTADO</label><br>
             <div class="input-container">
                 <span class="currency-symbol" id="result-symbol">$</span>
                 <!-- AGREGA EL SÍMBOLO AL DIV -->
-                <input type="text" id="num1" readonly>
+                <input class="text-input" type="text" id="num1" readonly>
             </div>
-            <button type="button" id="boton">CONVERTIR</button>
+            <button class="boton1" type="button" id="boton">CONVERTIR</button><br>
             <div id="conversor"></div>
         </form> 
     </div>
